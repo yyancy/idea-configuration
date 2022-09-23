@@ -1,4 +1,10 @@
 <keymap version="1" name="Windows copy" parent="$default">
+  <action id="EmacsStyleIndent">
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="alt f3" />
+  </action>
   <action id="GoToLastTab">
     <keyboard-shortcut first-keystroke="shift 6" />
   </action>
