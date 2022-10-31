@@ -176,8 +176,8 @@
                 </VFile>
                 <VFile>
                   <option name="enabled" value="true" />
-                  <option name="url" value="file:/$CONFIG$/ideavim/postfix/demo.txt" />
-                  <option name="file" value="${PLUGIN}\java\demo.txt.postfixTemplates" />
+                  <option name="url" value="file:/$CONFIG$/ideavim/postfix/collection.txt" />
+                  <option name="file" value="${PLUGIN}\java\collection.txt.postfixTemplates" />
                 </VFile>
               </list>
             </value>
