@@ -1,0 +1,14 @@
+<templateSet group="java-custom">
+  <template name="pi" value="private Integer $END$" description="private Integer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_ELSE_PLACE" value="false" />
+    </context>
+  </template>
+  <template name="ps" value="private String $END$" description="private String" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
