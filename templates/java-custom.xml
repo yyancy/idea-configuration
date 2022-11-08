@@ -11,4 +11,10 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="tobe" value="// TODO: $YEAR$ to be implemented $END$" description="to be implemented" toReformat="false" toShortenFQNames="true">
+    <variable name="YEAR" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
