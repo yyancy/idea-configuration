@@ -17,7 +17,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="ifnn" value="&lt;if test=&quot;$P$ != null and $P$ !=''&quot;&gt;&#10;    $END$&#10;&lt;/if&gt;" description="generate &lt;if&gt; tag for mybatis" toReformat="false" toShortenFQNames="true">
+  <template name="ifnn" value="&lt;if test=&quot;$P$ != null and $P$ !=''&quot;&gt;&#10;    $END$ = #{$P$}&#10;&lt;/if&gt;" description="generate &lt;if&gt; tag for mybatis" toReformat="false" toShortenFQNames="true">
     <variable name="P" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="MybatisOgnl" value="true" />
