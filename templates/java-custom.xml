@@ -17,4 +17,22 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="ifnn" value="&lt;if test=&quot;$P$ != null and $P$ !=''&quot;&gt;&#10;    $END$ = #{$P$}&#10;&lt;/if&gt;" description="generate &lt;if&gt; tag for mybatis" toReformat="false" toShortenFQNames="true">
+    <variable name="P" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="MybatisOgnl" value="true" />
+      <option name="MybatisSql" value="true" />
+      <option name="MybatisXmlComment" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="each" value="&lt;if test=&quot;$P$ != null and $P$.size() &gt; 0&quot;&gt;&#10;       and $F$ in&#10;        &lt;foreach collection=&quot;$P$&quot; index=&quot;index&quot; item=&quot;item&quot; open=&quot;(&quot; separator=&quot;,&quot; close=&quot;)&quot;&gt;&#10;            #{item}&#10;        &lt;/foreach&gt;&#10;&lt;/if&gt;" description="iterate list" toReformat="false" toShortenFQNames="true">
+    <variable name="P" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="F" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="MybatisOgnl" value="true" />
+      <option name="MybatisSql" value="true" />
+      <option name="MybatisXmlComment" value="true" />
+    </context>
+  </template>
 </templateSet>

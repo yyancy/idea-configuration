@@ -4,7 +4,7 @@
     <property name="created">2022-10-31T10:38:37</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2022.2.3.0.0</property>
-    <property name="modified">2022-11-16T16:42:38</property>
+    <property name="modified">2022-12-07T16:52:10</property>
     <property name="originalScheme">Material Deep Ocean</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -2875,7 +2875,7 @@
     <option name="SASS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="f28fad" />
+        <option name="BACKGROUND" value="b91414" />
       </value>
     </option>
     <option name="SLIM_CLASS">
@@ -3087,7 +3087,7 @@
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="292d3e" />
-        <option name="BACKGROUND" value="f5c2e7" />
+        <option name="BACKGROUND" value="f1bbcb" />
         <option name="ERROR_STRIPE_COLOR" value="ffff28" />
       </value>
     </option>
@@ -3183,7 +3183,7 @@
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="f28fad" />
+        <option name="BACKGROUND" value="e81152" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
