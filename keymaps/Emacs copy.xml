@@ -1,0 +1,5 @@
+<keymap version="1" name="Emacs copy" parent="Emacs">
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
+</keymap>
