@@ -10,6 +10,13 @@
     <keyboard-shortcut first-keystroke="ctrl y" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl v" />
   </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="alt semicolon" />
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+  </action>
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl c" />
   </action>
