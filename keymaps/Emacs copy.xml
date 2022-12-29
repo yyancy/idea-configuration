@@ -1,0 +1,35 @@
+<keymap version="1" name="Emacs copy" parent="Emacs">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="ctrl insert" />
+    <keyboard-shortcut first-keystroke="alt c" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="w" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl c" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="shift insert" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl v" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="alt semicolon" />
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+  </action>
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl c" />
+  </action>
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl v" />
+  </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
+</keymap>
