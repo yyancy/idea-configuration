@@ -6,7 +6,26 @@
           <option name="models">
             <list>
               <GrepModel>
+                <option name="expression" value="forEach" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
                 <option name="expression" value="" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="caseSensitive" value="true" />
+                <option name="expression" value="事件" />
               </GrepModel>
             </list>
           </option>
