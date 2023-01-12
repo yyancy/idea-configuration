@@ -57,6 +57,10 @@
     <keyboard-shortcut first-keystroke="escape" second-keystroke="back_space" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="EditorDownWithSelection">
+    <keyboard-shortcut first-keystroke="shift down" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
   <action id="GotoSuperMethod" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
