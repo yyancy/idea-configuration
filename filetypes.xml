@@ -2,6 +2,8 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping ext="plantuml" type="PlantUML file" />
+      <mapping ext="xjb" type="XML" />
+      <mapping ext="wsdd" type="XML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="ps1" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="ps1" approved="true" type="PowerShell" />
