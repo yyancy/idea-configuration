@@ -4,7 +4,7 @@
     <property name="created">2022-10-31T10:38:37</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2022.2.3.0.0</property>
-    <property name="modified">2022-12-07T16:52:10</property>
+    <property name="modified">2023-02-13T17:21:49</property>
     <property name="originalScheme">Material Deep Ocean</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -3087,7 +3087,7 @@
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="292d3e" />
-        <option name="BACKGROUND" value="f1bbcb" />
+        <option name="BACKGROUND" value="d9bfc6" />
         <option name="ERROR_STRIPE_COLOR" value="ffff28" />
       </value>
     </option>
