@@ -13,6 +13,24 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
   </action>
+  <action id="ActivateBookmarksToolWindow">
+    <keyboard-shortcut first-keystroke="alt 8" />
+  </action>
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="alt 4" />
+  </action>
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="alt 9" />
+  </action>
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="ActivateServicesToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="alt 5" />
+  </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="alt semicolon" />
     <keyboard-shortcut first-keystroke="ctrl slash" />
@@ -29,7 +47,23 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="ctrl alt down" />
   </action>
+  <action id="EditorCutLineBackward">
+    <keyboard-shortcut first-keystroke="alt minus" second-keystroke="ctrl k" />
+    <keyboard-shortcut first-keystroke="ctrl u" />
+  </action>
+  <action id="EditorDeleteToWordStart">
+    <keyboard-shortcut first-keystroke="ctrl back_space" />
+    <keyboard-shortcut first-keystroke="alt back_space" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="back_space" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="EditorDownWithSelection">
+    <keyboard-shortcut first-keystroke="shift down" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="GotoSuperMethod" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
   </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
 </keymap>

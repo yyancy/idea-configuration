@@ -12,5 +12,6 @@
     <entry key="ide.new.editor.tabs.vertical.borders" value="true" />
     <entry key="editor.focus.mode.color.light" value="777777" />
     <entry key="editor.focus.mode.color.dark" value="777777" />
+    <entry key="ide.intellij.laf.enable.animation" value="true" />
   </component>
 </application>

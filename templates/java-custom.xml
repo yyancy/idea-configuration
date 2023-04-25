@@ -35,4 +35,31 @@
       <option name="MybatisXmlComment" value="true" />
     </context>
   </template>
+  <template name="@tran" value="@Transactional(rollbackFor = Exception.class)" description="add @Transactional annotation with rollback for Exception" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="newlist" value="List&lt;$1$&gt; $2$ = new ArrayList&lt;&gt;();" description="create new List" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="newset" value="Set&lt;$1$&gt; $2$ = new HashSet&lt;&gt;();" description="create new Set" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="newmap" value="Map&lt;$1$, $2$&gt; $3$ = new HashMap&lt;&gt;();" description="create new map" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
