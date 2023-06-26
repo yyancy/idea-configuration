@@ -17,6 +17,19 @@
       </map>
     </option>
   </component>
+  <component name="DeclarativeInlayHintsSettings">
+    <option name="providerIdToEnabled">
+      <map>
+        <entry key="java.implicit.types" value="false" />
+        <entry key="java.method.chains" value="true" />
+        <entry key="js.chain.hints" value="true" />
+        <entry key="js.type.hints" value="true" />
+        <entry key="ts.chain.hints" value="true" />
+        <entry key="ts.enum.hints" value="true" />
+        <entry key="ts.type.hints" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="CONSOLE" />
     <option name="IS_VIRTUAL_SPACE" value="true" />
@@ -24,6 +37,6 @@
     <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
   </component>
   <component name="InlayHintsSettings">
-    <option name="lastViewedProviderKeyId" value="" />
+    <option name="lastViewedProviderKeyId" value="JAVA.parameter.hints.old.java.clear.expression.type" />
   </component>
 </application>
