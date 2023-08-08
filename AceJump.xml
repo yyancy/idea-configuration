@@ -1,5 +1,6 @@
 <application>
   <component name="AceConfig">
+    <option name="allowedChars" value="0123456789abcdefghijklmnopqrstuvwxz" />
     <option name="definitionModeColor" value="-9452033" />
     <option name="jumpEndModeColor" value="-13375606" />
     <option name="jumpModeColor" value="-1" />
