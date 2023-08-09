@@ -4,6 +4,5 @@
   </component>
   <component name="UsageFilteringRuleState">
     <option value="com.intellij.usages.impl.rules.ImportUsageFilteringRule" />
-    <option value="com.intellij.usages.impl.rules.ReadAccessFilteringRule" />
   </component>
 </application>
