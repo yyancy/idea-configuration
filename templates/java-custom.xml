@@ -62,7 +62,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="str" value="String" description="String" toReformat="false" toShortenFQNames="true">
+  <template name="str" value="String " description="String" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
