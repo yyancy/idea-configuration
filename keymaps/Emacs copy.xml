@@ -5,6 +5,10 @@
     <keyboard-shortcut first-keystroke="escape" second-keystroke="w" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl c" />
   </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="shift delete" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl x" />
+  </action>
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="shift insert" />
     <keyboard-shortcut first-keystroke="ctrl y" />
@@ -12,6 +16,7 @@
   </action>
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
+    <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
   <action id="ActivateBookmarksToolWindow">
     <keyboard-shortcut first-keystroke="alt 8" />
@@ -38,8 +43,14 @@
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl c" />
   </action>
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl x" />
+  </action>
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl v" />
+  </action>
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
@@ -61,9 +72,26 @@
     <keyboard-shortcut first-keystroke="shift down" />
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
+  <action id="EditorPageUp">
+    <keyboard-shortcut first-keystroke="page_up" />
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="shift alt g" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl f" />
+  </action>
+  <action id="GotoFile" />
   <action id="GotoSuperMethod" />
+  <action id="List-scrollUp">
+    <keyboard-shortcut first-keystroke="page_up" />
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
+  <action id="Table-scrollUpChangeSelection">
+    <keyboard-shortcut first-keystroke="page_up" />
+    <keyboard-shortcut first-keystroke="alt v" />
   </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
 </keymap>
