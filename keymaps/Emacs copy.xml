@@ -58,8 +58,11 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="ctrl alt down" />
   </action>
-  <action id="EditorCutLineBackward">
-    <keyboard-shortcut first-keystroke="alt minus" second-keystroke="ctrl k" />
+  <action id="EditorCutLineEnd" />
+  <action id="EditorDeleteToLineEnd">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
+  <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
   <action id="EditorDeleteToWordStart">
@@ -81,6 +84,9 @@
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl f" />
   </action>
   <action id="GotoFile" />
+  <action id="GotoImplementation">
+    <mouse-shortcut keystroke="control alt button1" />
+  </action>
   <action id="GotoSuperMethod" />
   <action id="List-scrollUp">
     <keyboard-shortcut first-keystroke="page_up" />
