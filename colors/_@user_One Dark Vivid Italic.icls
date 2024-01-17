@@ -4,7 +4,7 @@
     <property name="created">2022-11-08T10:17:03</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2022.2.3.0.0</property>
-    <property name="modified">2022-11-08T10:18:51</property>
+    <property name="modified">2024-01-17T10:44:00</property>
     <property name="originalScheme">One Dark Vivid Italic</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -979,7 +979,7 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="HAML_FILTER_CONTENT" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="HAML_FILTER_CONTENT" baseAttributes="" />
     <option name="HAML_ID">
       <value>
         <option name="FOREGROUND" value="61afef" />
@@ -1008,7 +1008,7 @@
         <option name="FOREGROUND" value="bbbbbb" />
       </value>
     </option>
-    <option name="HAML_XHTML" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
+    <option name="HAML_XHTML" baseAttributes="" />
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="d19a66" />
