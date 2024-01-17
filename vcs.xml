@@ -11,7 +11,4 @@
     </option>
     <option name="SHOW_TAG_NAMES" value="true" />
   </component>
-  <component name="VcsApplicationSettings">
-    <option name="COMMIT_FROM_LOCAL_CHANGES" value="false" />
-  </component>
 </application>
