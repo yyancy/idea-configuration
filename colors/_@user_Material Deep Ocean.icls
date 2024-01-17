@@ -4,7 +4,7 @@
     <property name="created">2022-10-31T10:38:37</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2022.2.3.0.0</property>
-    <property name="modified">2024-01-17T10:01:26</property>
+    <property name="modified">2024-01-17T10:42:36</property>
     <property name="originalScheme">Material Deep Ocean</property>
     <property name="partialSave">true</property>
   </metaInfo>
@@ -33,7 +33,6 @@
       <value>
         <option name="FOREGROUND" value="f78c6c" />
         <option name="EFFECT_COLOR" value="f78c6c" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE">
