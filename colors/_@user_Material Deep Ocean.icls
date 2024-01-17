@@ -4,7 +4,7 @@
     <property name="created">2022-10-31T10:38:37</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2022.2.3.0.0</property>
-    <property name="modified">2024-01-17T11:00:14</property>
+    <property name="modified">2024-01-17T11:03:59</property>
     <property name="originalScheme">Material Deep Ocean</property>
     <property name="partialSave">true</property>
   </metaInfo>
@@ -23,8 +23,9 @@
   <colors>
     <option name="CARET_COLOR" value="239443" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
-    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="c3e887" />
+    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="629755" />
     <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
+    <option name="FILESTATUS_RENAMED" value="70aeff" />
     <option name="NOTIFICATION_BACKGROUND" value="3d1a11" />
   </colors>
   <attributes>
