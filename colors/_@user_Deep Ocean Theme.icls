@@ -4,7 +4,7 @@
     <property name="created">2022-11-08T10:25:13</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2022.2.3.0.0</property>
-    <property name="modified">2024-01-17T11:14:52</property>
+    <property name="modified">2024-01-22T09:33:40</property>
     <property name="originalScheme">Deep Ocean Theme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -920,7 +920,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="" />
+    <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="HTML_CODE">
       <value />
     </option>
@@ -931,7 +931,7 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="HTML_ENTITY_REFERENCE" baseAttributes="" />
+    <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
     <option name="HTML_TAG">
       <value>
         <option name="FOREGROUND" value="60b3b3" />
@@ -3204,15 +3204,15 @@
         <option name="FOREGROUND" value="f36e77" />
       </value>
     </option>
-    <option name="XML_ATTRIBUTE_NAME" baseAttributes="" />
-    <option name="XML_ENTITY_REFERENCE" baseAttributes="" />
-    <option name="XML_PROLOGUE" baseAttributes="" />
+    <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
+    <option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
+    <option name="XML_PROLOGUE" baseAttributes="TEXT" />
     <option name="XML_TAG">
       <value>
         <option name="FOREGROUND" value="66c7c7" />
       </value>
     </option>
-    <option name="XML_TAG_DATA" baseAttributes="" />
+    <option name="XML_TAG_DATA" baseAttributes="TEXT" />
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="f36e77" />
