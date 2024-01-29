@@ -1,5 +1,8 @@
 <application>
-  <component name="LafManager" autodetect="false">
-    <laf class-name="com.intellij.ide.ui.laf.darcula.DarculaLaf" themeId="Material Deep Ocean" />
+  <component name="LafManager">
+    <laf themeId="DEEPOCEAN" />
+    <lafs-to-previous-schemes>
+      <laf-to-scheme laf="Darcula" scheme="_@user_Material Deep Ocean" />
+    </lafs-to-previous-schemes>
   </component>
 </application>
