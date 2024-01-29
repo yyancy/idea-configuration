@@ -127,5 +127,8 @@
     <keyboard-shortcut first-keystroke="page_up" />
     <keyboard-shortcut first-keystroke="alt v" />
   </action>
+  <action id="codeium.ak">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
 </keymap>
