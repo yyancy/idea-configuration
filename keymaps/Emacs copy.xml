@@ -104,6 +104,10 @@
     <mouse-shortcut keystroke="control alt button1" />
   </action>
   <action id="GotoSuperMethod" />
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="shift ctrl f12" />
+    <keyboard-shortcut first-keystroke="alt z" second-keystroke="alt z" />
+  </action>
   <action id="List-scrollUp">
     <keyboard-shortcut first-keystroke="page_up" />
     <keyboard-shortcut first-keystroke="alt v" />
