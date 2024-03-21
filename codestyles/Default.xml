@@ -1,1 +1,6 @@
-<code_scheme name="Default" version="173" />
+<code_scheme name="Default" version="173">
+  <codeStyleSettings language="JAVA">
+    <option name="RIGHT_MARGIN" value="120" />
+    <option name="WRAP_LONG_LINES" value="true" />
+  </codeStyleSettings>
+</code_scheme>
