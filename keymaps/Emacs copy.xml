@@ -2,7 +2,6 @@
   <action id="$Copy">
     <keyboard-shortcut first-keystroke="ctrl insert" />
     <keyboard-shortcut first-keystroke="alt c" />
-    <keyboard-shortcut first-keystroke="escape" second-keystroke="w" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl c" />
   </action>
   <action id="$Cut">
@@ -41,10 +40,26 @@
     <keyboard-shortcut first-keystroke="alt c" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl c" />
   </action>
+  <action id="ClickLink">
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
+    <keyboard-shortcut first-keystroke="alt period" />
+    <mouse-shortcut keystroke="control button1" />
+  </action>
+  <action id="CloseGotItTooltip" />
   <action id="CollapseBlock" />
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="alt semicolon" />
     <keyboard-shortcut first-keystroke="ctrl slash" />
+  </action>
+  <action id="Console.TableResult.GotoReferencingResult">
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
+    <keyboard-shortcut first-keystroke="alt period" />
+    <mouse-shortcut keystroke="control button1" />
+  </action>
+  <action id="Console.TableResult.NavigateForeignAction">
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
+    <keyboard-shortcut first-keystroke="alt period" />
+    <mouse-shortcut keystroke="control button1" />
   </action>
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl c" />
@@ -79,7 +94,6 @@
   <action id="EditorDeleteToWordStart">
     <keyboard-shortcut first-keystroke="ctrl back_space" />
     <keyboard-shortcut first-keystroke="alt back_space" />
-    <keyboard-shortcut first-keystroke="escape" second-keystroke="back_space" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="EditorDeleteToWordStartInDifferentHumpsMode">
@@ -100,17 +114,37 @@
     <keyboard-shortcut first-keystroke="shift ctrl m" />
     <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="ctrl right" />
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
   <action id="EditorPageUp">
     <keyboard-shortcut first-keystroke="page_up" />
     <keyboard-shortcut first-keystroke="alt v" />
   </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="ctrl left" />
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
+  <action id="EditorTextStart">
+    <keyboard-shortcut first-keystroke="ctrl home" />
+    <keyboard-shortcut first-keystroke="shift alt comma" />
+  </action>
+  <action id="EscUnfollowUserAction" />
   <action id="FocusEditor">
-    <keyboard-shortcut first-keystroke="escape" />
     <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="alt x" />
   </action>
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="shift alt g" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl f" />
+  </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
+    <keyboard-shortcut first-keystroke="alt period" />
+    <mouse-shortcut keystroke="control button1" />
   </action>
   <action id="GotoFile" />
   <action id="GotoImplementation">
@@ -121,9 +155,18 @@
     <keyboard-shortcut first-keystroke="shift ctrl f12" />
     <keyboard-shortcut first-keystroke="alt z" second-keystroke="alt z" />
   </action>
+  <action id="Jdbc.OpenEditor.DDL">
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
+    <keyboard-shortcut first-keystroke="alt period" />
+    <mouse-shortcut keystroke="control button1" />
+  </action>
   <action id="List-scrollUp">
     <keyboard-shortcut first-keystroke="page_up" />
     <keyboard-shortcut first-keystroke="alt v" />
+  </action>
+  <action id="List-selectFirstRow">
+    <keyboard-shortcut first-keystroke="ctrl home" />
+    <keyboard-shortcut first-keystroke="shift alt comma" />
   </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
@@ -140,9 +183,21 @@
     <keyboard-shortcut first-keystroke="f8" />
     <keyboard-shortcut first-keystroke="right" />
   </action>
+  <action id="SynchronizeCurrentFile">
+    <keyboard-shortcut first-keystroke="alt u" />
+  </action>
   <action id="Table-scrollUpChangeSelection">
     <keyboard-shortcut first-keystroke="page_up" />
     <keyboard-shortcut first-keystroke="alt v" />
+  </action>
+  <action id="Table-selectFirstRow">
+    <keyboard-shortcut first-keystroke="ctrl home" />
+    <keyboard-shortcut first-keystroke="shift alt comma" />
+  </action>
+  <action id="Terminal.SwitchFocusToEditor" />
+  <action id="Tree-selectFirst">
+    <keyboard-shortcut first-keystroke="ctrl home" />
+    <keyboard-shortcut first-keystroke="shift alt comma" />
   </action>
   <action id="codeium.ak">
     <keyboard-shortcut first-keystroke="tab" />
