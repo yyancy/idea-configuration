@@ -16,6 +16,7 @@
         <entry key="vcs.code.vision" value="Default" />
       </map>
     </option>
+    <option name="defaultPosition" value="Right" />
   </component>
   <component name="DeclarativeInlayHintsSettings">
     <option name="providerIdToEnabled">
