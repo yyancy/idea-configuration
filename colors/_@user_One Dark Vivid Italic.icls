@@ -1025,7 +1025,7 @@
         <option name="FOREGROUND" value="ef596f" />
       </value>
     </option>
-    <option name="HTML_TAG" baseAttributes="" />
+    <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="HTML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="ef596f" />
@@ -2283,7 +2283,7 @@
         <option name="BACKGROUND" value="282c34" />
       </value>
     </option>
-    <option name="XML_TAG" baseAttributes="" />
+    <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="ef596f" />
