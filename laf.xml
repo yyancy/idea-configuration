@@ -1,7 +1,5 @@
 <application>
   <component name="LafManager">
-    <lafs-to-previous-schemes>
-      <laf-to-scheme laf="ExperimentalDark" scheme="_@user_Deep Ocean Theme" />
-    </lafs-to-previous-schemes>
+    <laf themeId="Material Deep Ocean" />
   </component>
 </application>
