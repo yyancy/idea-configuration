@@ -11,11 +11,11 @@
   <option name="LINE_SPACING" value="1.0" />
   <font>
     <option name="EDITOR_FONT_NAME" value="Fira Code" />
-    <option name="EDITOR_FONT_SIZE" value="14" />
+    <option name="EDITOR_FONT_SIZE" value="18" />
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
-    <option name="EDITOR_FONT_SIZE" value="16" />
+    <option name="EDITOR_FONT_SIZE" value="18" />
   </font>
   <option name="EDITOR_LIGATURES" value="true" />
   <console-font>
@@ -24,7 +24,7 @@
   </console-font>
   <console-font>
     <option name="EDITOR_FONT_NAME" value="Menlo" />
-    <option name="EDITOR_FONT_SIZE" value="12" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
   </console-font>
   <option name="CONSOLE_LINE_SPACING" value="1.4" />
   <colors>
@@ -32,6 +32,7 @@
     <option name="FILESTATUS_IDEA_SVN_REPLACED" value="629755" />
     <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
     <option name="FILESTATUS_RENAMED" value="70aeff" />
+    <option name="FILESTATUS_SUPPRESSED" value="676e95" />
   </colors>
   <attributes>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE">
