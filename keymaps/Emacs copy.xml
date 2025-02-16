@@ -202,5 +202,6 @@
   <action id="codeium.ak">
     <keyboard-shortcut first-keystroke="tab" />
   </action>
+  <action id="copilot.disposeInlays" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
 </keymap>
