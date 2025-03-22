@@ -2,7 +2,7 @@
   <component name="MaterialThemeNewConfig">
     <option name="accentState">
       <MTAccentConfigState>
-        <option name="accentColorHex" value="009688" />
+        <option name="accentColorHex" value="6b9bfa" />
       </MTAccentConfigState>
     </option>
     <option name="compactState">
@@ -25,7 +25,7 @@
         <option name="migrated" value="true" />
         <option name="pristineConfig" value="false" />
         <option name="userId" value="5d14088c:192a4904d07:-8000" />
-        <option name="version" value="9.5.0" />
+        <option name="version" value="9.3.1" />
       </MTMetadataState>
     </option>
     <option name="projectTreeState">
@@ -38,6 +38,11 @@
       <MTTabsConfigState>
         <option name="tabsHeight" value="27" />
       </MTTabsConfigState>
+    </option>
+    <option name="themeState">
+      <MTThemeConfigState>
+        <option name="selectedThemeName" value="NATIVE" />
+      </MTThemeConfigState>
     </option>
   </component>
 </application>
