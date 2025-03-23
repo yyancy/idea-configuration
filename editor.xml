@@ -1,0 +1,50 @@
+<application>
+  <component name="CodeInsightSettings">
+    <option name="completionCaseSensitive" value="2" />
+    <option name="SHOW_PARAMETER_NAME_HINTS_ON_COMPLETION" value="true" />
+    <option name="COMPLETION_CASE_SENSITIVE" value="2" />
+    <option name="SHOW_FULL_SIGNATURES_IN_PARAMETER_INFO" value="true" />
+    <option name="REFORMAT_ON_PASTE" value="4" />
+    <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
+  </component>
+  <component name="CodeVisionSettings">
+    <option name="codeVisionGroupToPosition">
+      <map>
+        <entry key="inheritors" value="Default" />
+        <entry key="problems" value="Default" />
+        <entry key="references" value="Default" />
+        <entry key="vcs.code.vision" value="Default" />
+      </map>
+    </option>
+    <option name="defaultPosition" value="Right" />
+  </component>
+  <component name="DeclarativeInlayHintsSettings">
+    <option name="providerIdToEnabled">
+      <map>
+        <entry key="java.implicit.types" value="false" />
+        <entry key="java.method.chains" value="true" />
+        <entry key="js.chain.hints" value="true" />
+        <entry key="js.type.hints" value="true" />
+        <entry key="ts.chain.hints" value="true" />
+        <entry key="ts.enum.hints" value="true" />
+        <entry key="ts.type.hints" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
+    <option name="IS_VIRTUAL_SPACE" value="true" />
+    <option name="IS_FOLDING_ENDINGS_SHOWN" value="true" />
+    <option name="ENABLE_RENDERED_DOC" value="true" />
+    <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
+  </component>
+  <component name="InlayHintsSettings">
+    <option name="lastViewedProviderKeyId" value="JAVA.parameter.hints.old.java.clear.expression.type" />
+  </component>
+  <component name="InlineCompletionOnboarding">
+    <option name="onboardingFinished" value="true" />
+  </component>
+  <component name="PropertiesFoldingSettings">
+    <option name="foldPlaceholdersToContext" value="true" />
+  </component>
+</application>
