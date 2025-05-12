@@ -139,7 +139,7 @@
   </action>
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="shift alt g" />
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="f" />
+    <keyboard-shortcut first-keystroke="alt x" second-keystroke="alt f" />
   </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="ctrl alt g" />
@@ -148,6 +148,7 @@
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl a" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="a" />
   </action>
   <action id="GotoImplementation">
     <mouse-shortcut keystroke="control alt button1" />
