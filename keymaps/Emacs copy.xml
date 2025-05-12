@@ -177,6 +177,9 @@
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl o" />
     <keyboard-shortcut first-keystroke="meta back_quote" />
   </action>
+  <action id="RecentFiles">
+    <keyboard-shortcut first-keystroke="meta x" second-keystroke="b" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
   </action>
@@ -197,6 +200,9 @@
   </action>
   <action id="SwitcherForward">
     <keyboard-shortcut first-keystroke="alt back_quote" />
+  </action>
+  <action id="SwitcherRecentEditedChangedToggleCheckBox">
+    <keyboard-shortcut first-keystroke="meta p" />
   </action>
   <action id="SynchronizeCurrentFile">
     <keyboard-shortcut first-keystroke="alt u" />
