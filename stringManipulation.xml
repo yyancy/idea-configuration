@@ -7,12 +7,22 @@
         <option name="textWithMnemonic" value="To snake_case" />
       </UniversalActionModel>
     </option>
+    <option name="sortSettings">
+      <SortSettings>
+        <option name="collatorLanguageTag" value="zh_CN_#Hans" />
+      </SortSettings>
+    </option>
     <option name="sortTokensModel">
       <SortTokensModel>
         <option name="separators">
           <list>
             <option value=" " />
           </list>
+        </option>
+        <option name="sortSettings">
+          <SortSettings>
+            <option name="collatorLanguageTag" value="zh_CN_#Hans" />
+          </SortSettings>
         </option>
       </SortTokensModel>
     </option>
