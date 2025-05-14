@@ -14,5 +14,6 @@
     <entry key="ide.new.editor.tabs.vertical.borders" value="true" source="SYSTEM" />
     <entry key="ide.animate.toolwindows" value="true" source="SYSTEM" />
     <entry key="jvm.dfa.analysis.ui.security.analysis.window.was.shown" value="true" source="SYSTEM" />
+    <entry key="vcs.log.index.enable" value="true" source="SYSTEM" />
   </component>
 </application>
