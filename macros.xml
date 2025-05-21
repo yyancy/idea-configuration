@@ -1,0 +1,13 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="test">
+      <action id="SearchEverywhere" />
+      <shortuct text="control V" />
+    </macro>
+    <macro name="test2">
+      <action id="SearchEverywhere" />
+      <shortuct text="meta V" />
+      <shortuct text="ENTER" />
+    </macro>
+  </component>
+</application>
