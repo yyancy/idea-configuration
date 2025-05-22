@@ -73,6 +73,7 @@
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="s" />
+    <keyboard-shortcut first-keystroke="alt x" second-keystroke="s" />
   </action>
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl c" />
