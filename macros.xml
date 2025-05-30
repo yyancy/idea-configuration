@@ -1,13 +1,14 @@
 <application>
   <component name="ActionMacroManager">
-    <macro name="test">
-      <action id="SearchEverywhere" />
-      <shortuct text="control V" />
-    </macro>
     <macro name="test2">
       <action id="SearchEverywhere" />
       <shortuct text="meta V" />
       <shortuct text="ENTER" />
+    </macro>
+    <macro name="test">
+      <typing text-keycode="32:0">&amp;#x20;</typing>
+      <action id="RecentLocations" />
+      <shortuct text="control COMMA" />
     </macro>
   </component>
 </application>
