@@ -1,6 +1,5 @@
 <application>
   <component name="GitToolBoxRepositoriesAppConfig">
-    <option name="version" value="2" />
     <configForRepoType>
       <entry type="BITBUCKET_SERVER">
         <RepoTypeConfig>
