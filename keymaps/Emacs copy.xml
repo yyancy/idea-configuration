@@ -138,12 +138,10 @@
   <action id="FocusEditor">
     <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
-  <action id="GotoAction">
-    <keyboard-shortcut first-keystroke="alt x" />
-  </action>
+  <action id="GotoAction" />
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="shift alt g" />
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl f" />
+    <keyboard-shortcut first-keystroke="alt x" second-keystroke="alt f" />
   </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="ctrl alt g" />
