@@ -1,4 +1,7 @@
 <code_scheme name="Default" version="173">
+  <JavaCodeStyleSettings>
+    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="30" />
+  </JavaCodeStyleSettings>
   <codeStyleSettings language="JAVA">
     <option name="WRAP_LONG_LINES" value="true" />
   </codeStyleSettings>
