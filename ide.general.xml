@@ -9,5 +9,6 @@
     <entry key="editor.focus.mode.color.light" value="464b5d" source="SYSTEM" />
     <entry key="editor.focus.mode.color.dark" value="464b5d" source="SYSTEM" />
     <entry key="ide.intellij.laf.enable.animation" value="true" source="SYSTEM" />
+    <entry key="jvm.dfa.analysis.ui.security.analysis.window.was.shown" value="true" source="SYSTEM" />
   </component>
 </application>
