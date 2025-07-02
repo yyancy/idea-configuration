@@ -34,6 +34,7 @@
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="CONSOLE" />
     <option name="IS_VIRTUAL_SPACE" value="true" />
+    <option name="HORIZONTAL_SCROLL_OFFSET" value="15" />
     <option name="IS_FOLDING_ENDINGS_SHOWN" value="true" />
     <option name="ENABLE_RENDERED_DOC" value="true" />
     <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
