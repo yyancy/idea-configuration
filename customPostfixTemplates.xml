@@ -1,6 +1,6 @@
 <application>
   <component name="CustomPostfixTemplatesApplicationSettings">
-    <CptPluginSettings SettingsVersion="2">
+    <CptPluginSettings UpdateWebTemplatesAutomatically="false" SettingsVersion="2">
       <option name="langName2virtualFiles">
         <map>
           <entry key="go">
@@ -48,6 +48,10 @@
           <entry key="java">
             <value>
               <list>
+                <VFile>
+                  <option name="enabled" value="true" />
+                  <option name="file" value="${PLUGIN}/java/user.postfixTemplates" />
+                </VFile>
                 <VFile>
                   <option name="enabled" value="true" />
                   <option name="id" value="cassiuscai.vavr" />
