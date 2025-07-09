@@ -1,5 +1,11 @@
 <application>
   <component name="PostfixTemplates">
+    <template id="nob@userDefined" key=".nob" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.lang.String" />
+      </conditions>
+      <template name="fakeKey" value="StrUtil.isNotBlank($EXPR$)" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="sfail@userDefined" key=".sfail" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
       <template name="fakeKey" value="return Result.fail($EXPR$);" toReformat="true" toShortenFQNames="true" />
