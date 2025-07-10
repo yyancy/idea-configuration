@@ -83,4 +83,11 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="ofc" value="public static $CLASS_NAME$ of($PARAM$) {&#10;    $CLASS_NAME$ bean = new $CLASS_NAME$();&#10;    $END$&#10;    return bean;        &#10;}" description="of class" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
