@@ -24,6 +24,17 @@
           <option name="models">
             <list>
               <GrepModel>
+                <option name="caseSensitive" value="true" />
+                <option name="expression" value="事件" />
+                <option name="wholeWords" value="true" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
                 <option name="expression" value="" />
               </GrepModel>
             </list>
@@ -33,9 +44,7 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="caseSensitive" value="true" />
-                <option name="expression" value="事件" />
-                <option name="wholeWords" value="true" />
+                <option name="expression" value="bRoutineStarter" />
               </GrepModel>
             </list>
           </option>
@@ -46,6 +55,22 @@
       <list>
         <Profile>
           <option name="defaultProfile" value="true" />
+          <option name="foldingGroups">
+            <list>
+              <GrepExpressionGroup>
+                <option name="grepExpressionItems">
+                  <list>
+                    <GrepExpressionItem>
+                      <option name="caseInsensitive" value="true" />
+                      <option name="enabled" value="false" />
+                      <option name="fold" value="true" />
+                      <option name="grepExpression" value=".*bRoutineStarter.*" />
+                    </GrepExpressionItem>
+                  </list>
+                </option>
+              </GrepExpressionGroup>
+            </list>
+          </option>
           <option name="grepExpressionGroups">
             <list>
               <GrepExpressionGroup>
@@ -193,6 +218,48 @@
                     </GrepExpressionItem>
                   </list>
                 </option>
+              </GrepExpressionGroup>
+              <GrepExpressionGroup>
+                <option name="grepExpressionItems">
+                  <list>
+                    <GrepExpressionItem>
+                      <option name="action" value="REMOVE" />
+                      <option name="enabled" value="false" />
+                      <option name="grepExpression" value=".*MetisAccessMessageSubRoutineStarter.*" />
+                      <option name="inputFilter" value="true" />
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="action" value="REMOVE" />
+                      <option name="continueMatching" value="true" />
+                      <option name="enabled" value="false" />
+                      <option name="grepExpression" value="start to poll " />
+                      <option name="inputFilter" value="true" />
+                      <option name="operationOnMatch" value="CONTINUE_MATCHING" />
+                      <option name="unlessGrepExpression" value="start to poll " />
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="action" value="REMOVE_UNLESS_PREVIOUSLY_MATCHED" />
+                      <option name="caseInsensitive" value="true" />
+                      <option name="enabled" value="false" />
+                      <option name="grepExpression" value=".*bRoutineStarter.*" />
+                      <option name="inputFilter" value="true" />
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="action" value="REMOVE" />
+                      <option name="caseInsensitive" value="true" />
+                      <option name="grepExpression" value="^.*\d{4}/\d{2}-\d{2} \d{2}:\d{2}:\d{2}\.\d{3}.*$" />
+                      <option name="inputFilter" value="true" />
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="action" value="REMOVE" />
+                      <option name="caseInsensitive" value="true" />
+                      <option name="grepExpression" value="" />
+                      <option name="inputFilter" value="true" />
+                      <option name="unlessGrepExpression" value="^.*\d{4}/\d{2}-\d{2} \d{2}:\d{2}:\d{2}\.\d{3}.*$" />
+                    </GrepExpressionItem>
+                  </list>
+                </option>
+                <option name="name" value="new" />
               </GrepExpressionGroup>
             </list>
           </option>
