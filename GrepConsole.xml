@@ -240,7 +240,6 @@
                     <GrepExpressionItem>
                       <option name="action" value="REMOVE_UNLESS_PREVIOUSLY_MATCHED" />
                       <option name="caseInsensitive" value="true" />
-                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*bRoutineStarter.*" />
                       <option name="inputFilter" value="true" />
                     </GrepExpressionItem>
