@@ -48,4 +48,8 @@
   <component name="PropertiesFoldingSettings">
     <option name="foldPlaceholdersToContext" value="true" />
   </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+  </component>
 </application>
