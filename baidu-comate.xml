@@ -1,6 +1,7 @@
 <application>
   <component name="baidu-comate">
     <option name="showInlineShortcutTip" value="false" />
+    <option name="showCoexistenceShortcutTip" value="false" />
     <option name="username" value="v_dongyang05" />
   </component>
 </application>

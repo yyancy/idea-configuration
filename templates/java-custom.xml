@@ -95,4 +95,14 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="logordertempl" value="orderId: {}, subOrderId: {}, uid: {}" description="log order template" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="logorder" value="orderId, subOrderId, passportId" description="log order" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
