@@ -49,6 +49,15 @@
             </list>
           </option>
         </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="MetisAccessMessageSubRoutineWorker" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
       </list>
     </option>
     <option name="profiles">
@@ -231,16 +240,14 @@
                     <GrepExpressionItem>
                       <option name="action" value="REMOVE" />
                       <option name="continueMatching" value="true" />
-                      <option name="enabled" value="false" />
                       <option name="grepExpression" value="start to poll " />
                       <option name="inputFilter" value="true" />
                       <option name="operationOnMatch" value="CONTINUE_MATCHING" />
-                      <option name="unlessGrepExpression" value="start to poll " />
+                      <option name="unlessGrepExpression" value="" />
                     </GrepExpressionItem>
                     <GrepExpressionItem>
                       <option name="action" value="REMOVE_UNLESS_PREVIOUSLY_MATCHED" />
                       <option name="caseInsensitive" value="true" />
-                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*bRoutineStarter.*" />
                       <option name="inputFilter" value="true" />
                     </GrepExpressionItem>
@@ -258,6 +265,11 @@
                       <option name="grepExpression" value="" />
                       <option name="inputFilter" value="true" />
                       <option name="unlessGrepExpression" value="^.*\d{4}/\d{2}-\d{2} \d{2}:\d{2}:\d{2}\.\d{3}.*$" />
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="action" value="REMOVE" />
+                      <option name="grepExpression" value=".*MetisAccessMessageSubRoutineWorker.*" />
+                      <option name="inputFilter" value="true" />
                     </GrepExpressionItem>
                   </list>
                 </option>
