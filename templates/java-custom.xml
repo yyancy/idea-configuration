@@ -105,4 +105,20 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="somap" value="Map&lt;String, Object&gt; $END$" description="map&lt;String, Object&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ssmap" value="Map&lt;String, String&gt;" description="Map&lt;String, String&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="somapn" value="Map&lt;String, Object&gt; $1$ = new HashMap&lt;&gt;();$END$" description="new Map&lt;String, Object&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
