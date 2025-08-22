@@ -1265,7 +1265,7 @@
         <option name="FOREGROUND" value="d19a66" />
       </value>
     </option>
-    <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="" />
     <option name="KOTLIN_SMART_CAST_RECEIVER">
       <value />
     </option>
@@ -1656,7 +1656,7 @@
         <option name="FOREGROUND" value="d19a66" />
       </value>
     </option>
-    <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="DEFAULT_OPERATION_SIGN" />
+    <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="" />
     <option name="PROPERTIES.VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="2bbac5" />
@@ -2300,7 +2300,7 @@
         <option name="FOREGROUND" value="89ca78" />
       </value>
     </option>
-    <option name="XPATH.XPATH_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="XPATH.XPATH_VARIABLE" baseAttributes="" />
     <option name="YAML_ANCHOR">
       <value>
         <option name="FOREGROUND" value="e5c07b" />
