@@ -4,6 +4,7 @@
       <list>
         <option value="[bRoutineStarter] .s.i.MetisAccessMessageSubRoutineStarter : [subRoutineStarter] start to poll ..." />
         <option value="MetisAccessMessageSubRoutineWorker" />
+        <option value="MetisAccessMessageSubRoutineStarter" />
       </list>
     </option>
   </component>
