@@ -2,12 +2,11 @@
   <component name="MyBatisCodeHelper">
     <option name="profile">
       <Profile>
-        <option name="checkUsage" value="24" />
+        <option name="checkUsage" value="31" />
         <option name="generatedCount" value="1656552702687" />
         <option name="lastD1" value="1660526201217" />
         <option name="lastD2" value="1660526201218" />
         <option name="maxMeetContext" value="86" />
-        <option name="valid" value="true" />
       </Profile>
     </option>
   </component>
