@@ -21,87 +21,87 @@
   </console-font>
   <option name="CONSOLE_LINE_SPACING" value="1.4" />
   <colors>
-    <option name="ADDED_LINES_COLOR" value="2d4238" />
-    <option name="ANNOTATIONS_COLOR" value="4c4c50" />
-    <option name="CARET_COLOR" value="b6c4" />
-    <option name="CARET_ROW_COLOR" value="d1a21" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="1f2a30" />
-    <option name="DELETED_LINES_COLOR" value="ee616b" />
-    <option name="DIFF_SEPARATORS_BACKGROUND" value="22343d" />
-    <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b" />
+    <option name="ADDED_LINES_COLOR" value="2D4238" />
+    <option name="ANNOTATIONS_COLOR" value="4C4C50" />
+    <option name="CARET_COLOR" value="00B6C4" />
+    <option name="CARET_ROW_COLOR" value="0D1A21" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="1F2A30" />
+    <option name="DELETED_LINES_COLOR" value="EE616B" />
+    <option name="DIFF_SEPARATORS_BACKGROUND" value="22343D" />
+    <option name="DIFF_SEPARATORS_TOP_BORDER" value="1B262B" />
     <option name="DOCUMENTATION_COLOR" value="243540" />
-    <option name="FILESTATUS_ADDED" value="80cbc4" />
-    <option name="FILESTATUS_COPIED" value="80cbc4" />
+    <option name="FILESTATUS_ADDED" value="80CBC4" />
+    <option name="FILESTATUS_COPIED" value="80CBC4" />
     <option name="FILESTATUS_DELETED" value="808080" />
-    <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
+    <option name="FILESTATUS_HIJACKED" value="FFCB6B" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="808080" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="51646e" />
-    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="80cbc4" />
-    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="51646e" />
-    <option name="FILESTATUS_MERGED" value="c792ea" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="51646E" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="80CBC4" />
+    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="51646E" />
+    <option name="FILESTATUS_MERGED" value="C792EA" />
     <option name="FILESTATUS_MODIFIED" value="" />
-    <option name="FILESTATUS_NOT_CHANGED" value="7e8e96" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="7e8e96" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="7e8e96" />
-    <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
-    <option name="FILESTATUS_SWITCHED" value="c792ea" />
-    <option name="FILESTATUS_UNKNOWN" value="f77669" />
-    <option name="FILESTATUS_addedOutside" value="80cbc4" />
-    <option name="FILESTATUS_modifiedOutside" value="82aaff" />
-    <option name="GUTTER_BACKGROUND" value="11242c" />
-    <option name="INDENT_GUIDE" value="20323d" />
-    <option name="INFORMATION_HINT" value="1f2a30" />
+    <option name="FILESTATUS_NOT_CHANGED" value="7E8E96" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="7E8E96" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="7E8E96" />
+    <option name="FILESTATUS_SUPPRESSED" value="546E7A" />
+    <option name="FILESTATUS_SWITCHED" value="C792EA" />
+    <option name="FILESTATUS_UNKNOWN" value="F77669" />
+    <option name="FILESTATUS_addedOutside" value="80CBC4" />
+    <option name="FILESTATUS_modifiedOutside" value="82AAFF" />
+    <option name="GUTTER_BACKGROUND" value="11242C" />
+    <option name="INDENT_GUIDE" value="20323D" />
+    <option name="INFORMATION_HINT" value="1F2A30" />
     <option name="LINE_NUMBERS_COLOR" value="364555" />
-    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="607d86" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="607D86" />
     <option name="LOOKUP_COLOR" value="243540" />
-    <option name="METHOD_SEPARATORS_COLOR" value="2e3c43" />
+    <option name="METHOD_SEPARATORS_COLOR" value="2E3C43" />
     <option name="MODIFIED_LINES_COLOR" value="323236" />
-    <option name="MT_IGNORE.PROJECT_VIEW.IGNORED" value="51646e" />
-    <option name="MT_SUPPRESSED" value="eeffff" />
-    <option name="NOTIFICATION_BACKGROUND" value="3d1a11" />
-    <option name="NOT_CHANGED" value="607d8b" />
-    <option name="QUESTION_HINT" value="1f2a30" />
-    <option name="RECENT_LOCATIONS_SELECTION" value="1b2529" />
-    <option name="RIGHT_MARGIN_COLOR" value="37474f" />
-    <option name="SELECTED_INDENT_GUIDE" value="3c5066" />
-    <option name="SELECTED_TEARLINE_COLOR" value="9688" />
-    <option name="SELECTION_BACKGROUND" value="31424d" />
-    <option name="SEPARATOR_BELOW_COLOR" value="3b4950" />
-    <option name="SOFT_WRAP_SIGN_COLOR" value="3b4a57" />
-    <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="9688c0" />
-    <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="9688c0" />
-    <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="1f2a30" />
+    <option name="MT_IGNORE.PROJECT_VIEW.IGNORED" value="51646E" />
+    <option name="MT_SUPPRESSED" value="EEFFFF" />
+    <option name="NOTIFICATION_BACKGROUND" value="3D1A11" />
+    <option name="NOT_CHANGED" value="607D8B" />
+    <option name="QUESTION_HINT" value="1F2A30" />
+    <option name="RECENT_LOCATIONS_SELECTION" value="1B2529" />
+    <option name="RIGHT_MARGIN_COLOR" value="37474F" />
+    <option name="SELECTED_INDENT_GUIDE" value="3C5066" />
+    <option name="SELECTED_TEARLINE_COLOR" value="009688" />
+    <option name="SELECTION_BACKGROUND" value="31424D" />
+    <option name="SEPARATOR_BELOW_COLOR" value="3B4950" />
+    <option name="SOFT_WRAP_SIGN_COLOR" value="3B4A57" />
+    <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="9688C0" />
+    <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="9688C0" />
+    <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="1F2A30" />
     <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="968880" />
     <option name="ScrollBar.Mac.Transparent.thumbColor" value="968880" />
-    <option name="ScrollBar.Mac.Transparent.trackColor" value="1f2a30" />
-    <option name="ScrollBar.Mac.hoverThumbBorderColor" value="9688" />
-    <option name="ScrollBar.Mac.hoverThumbColor" value="9688" />
-    <option name="ScrollBar.Mac.hoverTrackColor" value="1f2a30" />
-    <option name="ScrollBar.Mac.thumbBorderColor" value="9688c0" />
-    <option name="ScrollBar.Mac.thumbColor" value="9688c0" />
-    <option name="ScrollBar.Mac.trackColor" value="1f2a30" />
-    <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="9688c0" />
-    <option name="ScrollBar.Transparent.hoverThumbColor" value="9688c0" />
-    <option name="ScrollBar.Transparent.hoverTrackColor" value="1f2a30" />
+    <option name="ScrollBar.Mac.Transparent.trackColor" value="1F2A30" />
+    <option name="ScrollBar.Mac.hoverThumbBorderColor" value="009688" />
+    <option name="ScrollBar.Mac.hoverThumbColor" value="009688" />
+    <option name="ScrollBar.Mac.hoverTrackColor" value="1F2A30" />
+    <option name="ScrollBar.Mac.thumbBorderColor" value="9688C0" />
+    <option name="ScrollBar.Mac.thumbColor" value="9688C0" />
+    <option name="ScrollBar.Mac.trackColor" value="1F2A30" />
+    <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="9688C0" />
+    <option name="ScrollBar.Transparent.hoverThumbColor" value="9688C0" />
+    <option name="ScrollBar.Transparent.hoverTrackColor" value="1F2A30" />
     <option name="ScrollBar.Transparent.thumbBorderColor" value="968880" />
     <option name="ScrollBar.Transparent.thumbColor" value="968880" />
-    <option name="ScrollBar.Transparent.trackColor" value="1f2a30" />
-    <option name="ScrollBar.hoverThumbBorderColor" value="9688" />
-    <option name="ScrollBar.hoverThumbColor" value="9688" />
-    <option name="ScrollBar.hoverTrackColor" value="1f2a30" />
-    <option name="ScrollBar.thumbBorderColor" value="9688c0" />
-    <option name="ScrollBar.thumbColor" value="264c6b" />
-    <option name="ScrollBar.trackColor" value="1f2a30" />
-    <option name="TEARLINE_COLOR" value="3b4950" />
-    <option name="TOOLTIP" value="32424a" />
-    <option name="VCS_ANNOTATIONS_COLOR_1" value="171c2a" />
-    <option name="VCS_ANNOTATIONS_COLOR_2" value="102a2e" />
-    <option name="VCS_ANNOTATIONS_COLOR_3" value="101e2e" />
-    <option name="VCS_ANNOTATIONS_COLOR_4" value="192a1f" />
+    <option name="ScrollBar.Transparent.trackColor" value="1F2A30" />
+    <option name="ScrollBar.hoverThumbBorderColor" value="009688" />
+    <option name="ScrollBar.hoverThumbColor" value="009688" />
+    <option name="ScrollBar.hoverTrackColor" value="1F2A30" />
+    <option name="ScrollBar.thumbBorderColor" value="9688C0" />
+    <option name="ScrollBar.thumbColor" value="264C6B" />
+    <option name="ScrollBar.trackColor" value="1F2A30" />
+    <option name="TEARLINE_COLOR" value="3B4950" />
+    <option name="TOOLTIP" value="32424A" />
+    <option name="VCS_ANNOTATIONS_COLOR_1" value="171C2A" />
+    <option name="VCS_ANNOTATIONS_COLOR_2" value="102A2E" />
+    <option name="VCS_ANNOTATIONS_COLOR_3" value="101E2E" />
+    <option name="VCS_ANNOTATIONS_COLOR_4" value="192A1F" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="252525" />
-    <option name="VISUAL_INDENT_GUIDE" value="485c7b" />
-    <option name="WHITESPACES" value="2f4158" />
-    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="1b2f36" />
+    <option name="VISUAL_INDENT_GUIDE" value="485C7B" />
+    <option name="WHITESPACES" value="2F4158" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="1B2F36" />
   </colors>
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
@@ -386,7 +386,7 @@
         <option name="FOREGROUND" value="f36e77" />
       </value>
     </option>
-    <option name="CSS.URL" baseAttributes="" />
+    <option name="CSS.URL" baseAttributes="HTML_ATTRIBUTE_VALUE" />
     <option name="CTRL_CLICKABLE">
       <value>
         <option name="FOREGROUND" value="66c7c7" />
@@ -920,7 +920,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="" />
+    <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="HTML_CODE">
       <value />
     </option>
@@ -931,7 +931,7 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="HTML_ENTITY_REFERENCE" baseAttributes="" />
+    <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
     <option name="HTML_TAG">
       <value>
         <option name="FOREGROUND" value="60b3b3" />
@@ -3204,15 +3204,15 @@
         <option name="FOREGROUND" value="f36e77" />
       </value>
     </option>
-    <option name="XML_ATTRIBUTE_NAME" baseAttributes="" />
-    <option name="XML_ENTITY_REFERENCE" baseAttributes="" />
-    <option name="XML_PROLOGUE" baseAttributes="" />
+    <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
+    <option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
+    <option name="XML_PROLOGUE" baseAttributes="TEXT" />
     <option name="XML_TAG">
       <value>
         <option name="FOREGROUND" value="66c7c7" />
       </value>
     </option>
-    <option name="XML_TAG_DATA" baseAttributes="" />
+    <option name="XML_TAG_DATA" baseAttributes="TEXT" />
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="f36e77" />
