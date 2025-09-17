@@ -119,15 +119,15 @@
           <option name="key" value="shell_command exists" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="sb" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="sbf" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="sbfb" />
         </TemplateKey>
         <TemplateKey>
@@ -139,151 +139,151 @@
           <option name="key" value="aopautoproxy" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="hibernatefactory" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="datasource" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="hibernatetm" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="transactionmanager" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="jndids" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="jdopmf" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="jdopmfproxy" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="jdotm" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="jpoxpmf" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="toplinklsf" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="toplinktasa" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="toplinktm" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="ibatisfactory" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="jpaemfb" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="jpacemf" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="jpapum" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="jpapabpp" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="jpapetpp" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="jpatm" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="intscheduler" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="crontrigger" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="scedulerfactorybean" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="simpletrigger" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="jdkscheduledtimertask" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="jdktimerfactorybean" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="ejblssb" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="ejbrssb" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="freemarker" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="placeholder" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="propertyoverrideconfigurer" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="resourcefb" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="commonslogfb" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="fieldretrfactory" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="listfactory" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="mapfactory" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="proprsfactory" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="spring" />
+          <option name="groupName" value="Spring" />
           <option name="key" value="setfactory" />
         </TemplateKey>
         <TemplateKey>
@@ -361,6 +361,22 @@
         <TemplateKey>
           <option name="groupName" value="jsf" />
           <option name="key" value="tldFunction" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Kotlin" />
+          <option name="key" value="object" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Maven" />
+          <option name="key" value="dep" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Maven" />
+          <option name="key" value="pl" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Maven" />
+          <option name="key" value="repo" />
         </TemplateKey>
       </list>
     </option>

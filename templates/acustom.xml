@@ -1,0 +1,9 @@
+<templateSet group="acustom">
+  <template name="newlist" value="List&lt;$V1$&gt; $V2$ = new ArrayList&lt;&gt;();&#10;$END$" description="new ArrayList" toReformat="false" toShortenFQNames="true">
+    <variable name="V1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="V2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
