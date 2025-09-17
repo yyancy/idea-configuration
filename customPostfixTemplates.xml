@@ -1,6 +1,6 @@
 <application>
   <component name="CustomPostfixTemplatesApplicationSettings">
-    <CptPluginSettings UpdateWebTemplatesAutomatically="false" SettingsVersion="2">
+    <CptPluginSettings SettingsVersion="2">
       <option name="langName2virtualFiles">
         <map>
           <entry key="go">
@@ -48,10 +48,6 @@
           <entry key="java">
             <value>
               <list>
-                <VFile>
-                  <option name="enabled" value="true" />
-                  <option name="file" value="${PLUGIN}/java/user.postfixTemplates" />
-                </VFile>
                 <VFile>
                   <option name="enabled" value="true" />
                   <option name="id" value="cassiuscai.vavr" />
@@ -177,11 +173,6 @@
                   <option name="id" value="xylo.idea-dev" />
                   <option name="url" value="https://raw.githubusercontent.com/xylo/intellij-postfix-templates/master/templates/java/idea-dev.postfixTemplates" />
                   <option name="file" value="${PLUGIN}/java/xylo.idea-dev.postfixTemplates" />
-                </VFile>
-                <VFile>
-                  <option name="enabled" value="true" />
-                  <option name="url" value="file:$USER_HOME$/.config/ideavim/postfix/collection.txt" />
-                  <option name="file" value="${PLUGIN}/java/collection.postfixTemplates" />
                 </VFile>
               </list>
             </value>

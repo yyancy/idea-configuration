@@ -4,9 +4,5 @@
       <artifact />
       <artifact id="MySQL ConnectorJ" name="MySQL ConnectorJ" use="true" version="8.2.0" />
     </driver>
-    <driver id="mysql">
-      <artifact />
-      <artifact id="MySQL ConnectorJ" name="MySQL ConnectorJ" use="true" version="5.1.47" />
-    </driver>
   </component>
 </application>
