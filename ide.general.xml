@@ -12,5 +12,6 @@
     <entry key="jvm.dfa.analysis.ui.security.analysis.window.was.shown" value="true" source="SYSTEM" />
     <entry key="vcs.log.index.enable" value="true" source="SYSTEM" />
     <entry key="ide.browser.jcef.out-of-process.enabled" value="false" source="SYSTEM" />
+    <entry key="java.highest.language.level" value="25" source="MANAGER" />
   </component>
 </application>
