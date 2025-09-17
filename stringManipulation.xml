@@ -7,14 +7,5 @@
         <option name="textWithMnemonic" value="To camelCase" />
       </UniversalActionModel>
     </option>
-    <option name="sortTokensModel">
-      <SortTokensModel>
-        <option name="separators">
-          <list>
-            <option value=" " />
-          </list>
-        </option>
-      </SortTokensModel>
-    </option>
   </component>
 </application>

@@ -1,12 +1,6 @@
 <code_scheme name="Default" version="173">
   <JavaCodeStyleSettings>
-    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="30" />
-    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="30" />
+    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="50" />
+    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="10" />
   </JavaCodeStyleSettings>
-  <SqlCodeStyleSettings version="7">
-    <option name="DISABLE_FORMATTING" value="true" />
-  </SqlCodeStyleSettings>
-  <codeStyleSettings language="JAVA">
-    <option name="WRAP_LONG_LINES" value="true" />
-  </codeStyleSettings>
 </code_scheme>
