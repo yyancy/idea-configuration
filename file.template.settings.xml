@@ -1,0 +1,8 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <internal_templates>
+      <template name="Jsp File.jsp" reformat="true" live-template-enabled="true" />
+      <template name="Jspx File.jspx" reformat="true" live-template-enabled="true" />
+    </internal_templates>
+  </component>
+</application>
