@@ -1,8 +1,6 @@
 <application>
   <component name="GitToolBoxAppSettings2">
-    <option name="autoFetchEnabled" value="false" />
     <option name="checkPushed" value="false" />
     <option name="checkUncommittedFiles" value="false" />
-    <option name="version" value="6" />
   </component>
 </application>
