@@ -3,6 +3,5 @@
     <entry key="moved.to.new.ui" value="true" source="SYSTEM" />
     <entry key="ide.experimental.ui" value="true" source="SYSTEM" />
     <entry key="ide.browser.jcef.out-of-process.enabled" value="false" source="SYSTEM" />
-    <entry key="java.highest.language.level" value="25" source="MANAGER" />
   </component>
 </application>
