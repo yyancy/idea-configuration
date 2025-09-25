@@ -1,0 +1,22 @@
+<templateSet group="Java//Instance 'main' methods for implicitly declared classes">
+  <template name="psvm" value="void main(){&#10;  $END$&#10;}" description="void main()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_IMPLICIT_CLASS_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="main" value="void main(){&#10;  $END$&#10;}" description="void main()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_IMPLICIT_CLASS_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="psvma" value="void main(String[] args){&#10;  $END$&#10;}" description="void main(String[] args)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_IMPLICIT_CLASS_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="maina" value="void main(String[] args){&#10;  $END$&#10;}" description="void main(String[] args)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_IMPLICIT_CLASS_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>

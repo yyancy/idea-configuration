@@ -1,0 +1,16 @@
+<templateSet group="gRPC Request">
+  <template name="grpcr" value="GRPC $HOST$/$SERVICE_NAME$/$METHOD_NAME$&#10;$METADATA_KEY$: $METADATA_VALUE$&#10;&#10;{&#10;  $REQUEST_BODY$&#10;}&#10;###" description="gRPC Request" toReformat="true" toShortenFQNames="false">
+    <variable name="HOST" expression="" defaultValue="&quot;localhost:8080&quot;" alwaysStopAt="true" />
+    <variable name="SERVICE_NAME" expression="" defaultValue="&quot;com.example.Service&quot;" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="" defaultValue="&quot;method&quot;" alwaysStopAt="true" />
+    <variable name="METADATA_KEY" expression="" defaultValue="&quot;Key&quot;" alwaysStopAt="true" />
+    <variable name="METADATA_VALUE" expression="" defaultValue="&quot;Value&quot;" alwaysStopAt="true" />
+    <variable name="REQUEST_BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="REQUEST" value="true" />
+      <option name="REQUEST_AUTH_HEADER" value="false" />
+      <option name="REQUEST_HEADER" value="false" />
+      <option name="REQUEST_RESPONSE_HANDLER_PATH" value="false" />
+    </context>
+  </template>
+</templateSet>

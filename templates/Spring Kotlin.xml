@@ -1,0 +1,46 @@
+<templateSet group="Spring Kotlin">
+  <template name="component" value="@$ANNOTATION$&#10;class $CLASS_NAME$ {&#10;$END$&#10;}" description="Spring '@Component' template" toReformat="true" toShortenFQNames="true">
+    <variable name="ANNOTATION" expression="springComponentAnnotation(&quot;org.springframework.stereotype.Component&quot;, &quot;true&quot;)" defaultValue="org.springframework.stereotype.Component" alwaysStopAt="false" />
+    <variable name="CLASS_NAME" expression="groovyScript(&quot;import org.apache.commons.lang3.StringUtils; int index = _2.lastIndexOf('.'); StringUtils.substringBefore(_1, 'Component')+_2.substring(index&gt;0?index+1:0);&quot;, capitalize(camelCase(fileNameWithoutExtension())), ANNOTATION);" defaultValue="MyComponent" alwaysStopAt="true" />
+    <context>
+      <option name="HAS_SPRING_KT" value="true" />
+    </context>
+  </template>
+  <template name="configuration" value="@$ANNOTATION$&#10;class $CLASS_NAME$ {&#10;$END$&#10;}" description="Spring '@Configuration' template" toReformat="true" toShortenFQNames="true">
+    <variable name="ANNOTATION" expression="annotation(&quot;org.springframework.context.annotation.Configuration&quot;, &quot;true&quot;)" defaultValue="org.springframework.context.annotation.Configuration" alwaysStopAt="false" />
+    <variable name="CLASS_NAME" expression="groovyScript(&quot;import org.apache.commons.lang3.StringUtils; int index = _2.lastIndexOf('.'); StringUtils.substringBefore(_1, 'Configuration')+_2.substring(index&gt;0?index+1:0);&quot;, capitalize(camelCase(fileNameWithoutExtension())), ANNOTATION);" defaultValue="MyConfiguration" alwaysStopAt="true" />
+    <context>
+      <option name="HAS_SPRING_KT" value="true" />
+    </context>
+  </template>
+  <template name="service" value="@$ANNOTATION$&#10;class $CLASS_NAME$ {&#10;$END$&#10;}" description="Spring '@Service' template" toReformat="true" toShortenFQNames="true">
+    <variable name="ANNOTATION" expression="annotation(&quot;org.springframework.stereotype.Service&quot;, &quot;true&quot;)" defaultValue="org.springframework.stereotype.Service" alwaysStopAt="false" />
+    <variable name="CLASS_NAME" expression="groovyScript(&quot;import org.apache.commons.lang3.StringUtils; int index = _2.lastIndexOf('.'); StringUtils.substringBefore(_1, 'Service')+_2.substring(index&gt;0?index+1:0);&quot;, capitalize(camelCase(fileNameWithoutExtension())), ANNOTATION);" defaultValue="MyService" alwaysStopAt="true" />
+    <context>
+      <option name="HAS_SPRING_KT" value="true" />
+    </context>
+  </template>
+  <template name="configProperties" value="@org.springframework.boot.context.properties.ConfigurationProperties(prefix = &quot;$PREFIX$&quot;)&#10;class $CLASS_NAME$ {&#10;$END$&#10;}" description="Spring '@Component' template" toReformat="true" toShortenFQNames="true">
+    <variable name="PREFIX" expression="" defaultValue="custom.config" alwaysStopAt="true" />
+    <variable name="CLASS_NAME" expression="groovyScript(&quot;_1+'ConfigurationProperties';&quot;, capitalize(camelCase(fileNameWithoutExtension())));" defaultValue="MyConfigurationProperties" alwaysStopAt="true" />
+    <context>
+      <option name="HAS_SPRING_KT" value="true" />
+    </context>
+  </template>
+  <template name="bean" value="@org.springframework.context.annotation.Bean&#10;$CLASS_NAME$(): $RETURN_TYPE$ {&#10;$END$&#10;}" description="Spring '@Bean' template" toReformat="true" toShortenFQNames="true">
+    <variable name="RETURN_TYPE" expression="" defaultValue="&quot;Any&quot;" alwaysStopAt="true" />
+    <variable name="CLASS_NAME" expression="groovyScript(&quot;import org.apache.commons.lang3.StringUtils; if(StringUtils.isAlpha(_1)) return StringUtils.uncapitalize(_1) else return 'bean';&quot;, RETURN_TYPE);" defaultValue="&quot;bean&quot;" alwaysStopAt="false" />
+    <context>
+      <option name="IS_SPRING_CONFIGURATION_KT" value="true" />
+    </context>
+  </template>
+  <template name="repository" value="interface $CLASS_NAME$: $REPOSITORY_PARENT$&lt;$ENTITY_NAME$,$ENTITY_ID$&gt; {&#10;$END$&#10;}" description="Spring '@Repository' template" toReformat="true" toShortenFQNames="true">
+    <variable name="REPOSITORY_PARENT" expression="jpaRepositoryTypes(subtypes(&quot;org.springframework.data.repository.Repository&quot;))" defaultValue="" alwaysStopAt="true" />
+    <variable name="ENTITY_NAME" expression="jpaEntityTypes()" defaultValue="ENTITY" alwaysStopAt="true" />
+    <variable name="ENTITY_ID" expression="jpaEntityIdType(ENTITY_NAME)" defaultValue="ID" alwaysStopAt="false" />
+    <variable name="CLASS_NAME" expression="groovyScript(&quot;import org.apache.commons.lang3.StringUtils; int index = _1.lastIndexOf('.'); _1.substring(index&gt;0?index+1:0)+'Repository';&quot;, ENTITY_NAME);" defaultValue="MyRepository" alwaysStopAt="true" />
+    <context>
+      <option name="HAS_SPRING_DATA_KT" value="true" />
+    </context>
+  </template>
+</templateSet>

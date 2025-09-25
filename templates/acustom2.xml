@@ -1,0 +1,58 @@
+<templateSet group="acustom">
+  <template name="newlist" value="List&lt;$V1$&gt; $V2$ = new ArrayList&lt;&gt;();&#10;$END$" description="new ArrayList" toReformat="false" toShortenFQNames="true">
+    <variable name="V1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="V2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tobe" value="// TODO: $Date$ to be implemented $END$" description="to be implemented" toReformat="false" toShortenFQNames="true">
+    <variable name="Date" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="todo" value="// TODO: $YEAR$ $END$" description="to do" toReformat="false" toShortenFQNames="true">
+    <variable name="YEAR" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ps" value="private String $END$" description="private String" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="pi" value="private Integer $END$" description="private Integer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="newset" value="Set&lt;$1$&gt; $2$ = new HashSet&lt;&gt;();" description="create new Set" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="newmap" value="Map&lt;$1$, $2$&gt; $3$ = new HashMap&lt;&gt;();" description="create new map" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="apip" value="@ApiModelProperty(&quot;$END$&quot;)" description="api properties" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ofc" value="public static $CLASS_NAME of($PARAM$) {&#10;    $CLASS_NAME$ bean = new $CLASS_NAME$();&#10;    $END$&#10;    return bean;&#10;&#10;}" description="of class" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
