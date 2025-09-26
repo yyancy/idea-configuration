@@ -6,11 +6,6 @@
     <variable name="METADATA_KEY" expression="" defaultValue="&quot;Key&quot;" alwaysStopAt="true" />
     <variable name="METADATA_VALUE" expression="" defaultValue="&quot;Value&quot;" alwaysStopAt="true" />
     <variable name="REQUEST_BODY" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="REQUEST" value="true" />
-      <option name="REQUEST_AUTH_HEADER" value="false" />
-      <option name="REQUEST_HEADER" value="false" />
-      <option name="REQUEST_RESPONSE_HANDLER_PATH" value="false" />
-    </context>
+    <context />
   </template>
 </templateSet>

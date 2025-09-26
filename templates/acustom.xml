@@ -55,4 +55,14 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="cdata" value="@Data&#10;@Builder&#10;@NoArgsConstructor&#10;@AllArgsConstructor&#10;" description="create Data obj" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cidata" value="import lombok.AllArgsConstructor;&#10;import lombok.Builder;&#10;import lombok.Data;&#10;import lombok.NoArgsConstructor;&#10;" description="import data" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>

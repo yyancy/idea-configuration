@@ -1,22 +1,14 @@
 <templateSet group="Java//Instance 'main' methods for normal classes">
   <template name="psvm" value="static void main(){&#10;  $END$&#10;}" description="static void main()" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_NORMAL_CLASS_DECLARATION_WITH_INSTANCE_MAIN" value="true" />
-    </context>
+    <context />
   </template>
   <template name="main" value="static void main(){&#10;  $END$&#10;}" description="static void main()" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_NORMAL_CLASS_DECLARATION_WITH_INSTANCE_MAIN" value="true" />
-    </context>
+    <context />
   </template>
   <template name="psvma" value="static void main(String[] args){&#10;  $END$&#10;}" description="static void main(String[] args)" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_NORMAL_CLASS_DECLARATION_WITH_INSTANCE_MAIN" value="true" />
-    </context>
+    <context />
   </template>
   <template name="maina" value="static void main(String[] args){&#10;  $END$&#10;}" description="static void main(String[] args)" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_NORMAL_CLASS_DECLARATION_WITH_INSTANCE_MAIN" value="true" />
-    </context>
+    <context />
   </template>
 </templateSet>
