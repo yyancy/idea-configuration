@@ -1,0 +1,8 @@
+<templateSet group="user">
+  <template name="retry" value="try {&#10;    int maxRetries = $maxRetries$;&#10;    for (int retryCount = 0; retryCount &lt; maxRetries; retryCount++) {&#10;        try {&#10;            $END$&#10;        } catch (Exception e) {&#10;            if (retryCount == maxRetries - 1) {&#10;                log.error(&quot;function failed after {} retries&quot;, maxRetries, e);&#10;                throw new Exception(&quot;failed:&quot; + e.getMessage());&#10;            }&#10;            log.warn(&quot;operation failed, retry attempt {}/{}&quot;, retryCount + 1, maxRetries, e);&#10;            try {&#10;                Thread.sleep(1000L * (retryCount + 1)); // 递增延迟重试&#10;            } catch (InterruptedException ie) {&#10;                Thread.currentThread().interrupt();&#10;                throw new Exception(&quot;InterruptedException&quot;);&#10;            }&#10;        }&#10;    }&#10;}&#10;" description="retry block" toReformat="false" toShortenFQNames="true">
+    <variable name="maxRetries" expression="" defaultValue="&quot;3&quot;" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
