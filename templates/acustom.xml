@@ -65,4 +65,25 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="getmapping" value="@GetMapping(&quot;/$1$&quot;)&#10;public Result&lt;Boolean&gt; $2$($3$) {&#10;    log.info(&quot;$2$&quot;);&#10;    $END$&#10;    return null;&#10;}&#10;" description="GetMapping" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="postmapping" value="@PostMapping(&quot;/$1$&quot;)&#10;public Result&lt;Boolean&gt; $2$($3$) {&#10;    log.info(&quot;$2$&quot;);&#10;    $END$&#10;    return null;&#10;}" description="PostMapping" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="st" value="String " description="String" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
