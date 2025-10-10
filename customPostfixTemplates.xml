@@ -179,6 +179,14 @@
                   <option name="url" value="https://raw.githubusercontent.com/yyancy/ideavim/refs/heads/master/postfix/collection.txt" />
                   <option name="file" value="${PLUGIN}/java/collection.txt.postfixTemplates" />
                 </VFile>
+                <VFile>
+                  <option name="enabled" value="true" />
+                  <option name="file" value="${PLUGIN}/java/hutool.txt.postfixTemplates" />
+                </VFile>
+                <VFile>
+                  <option name="enabled" value="true" />
+                  <option name="file" value="${PLUGIN}/java/local-yancy.txt.postfixTemplates" />
+                </VFile>
               </list>
             </value>
           </entry>
