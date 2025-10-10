@@ -86,4 +86,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="datepatt" value="yyyy-MM-dd HH:mm:ss" description="yyyy-MM-dd HH:mm:ss" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
