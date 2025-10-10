@@ -6,17 +6,19 @@
       </conditions>
       <template name="fakeKey" value="StrUtil.isNotBlank($EXPR$)" description="" toReformat="true" toShortenFQNames="true" />
     </template>
-    <template id="succ@userDefined" key=".succ" provider="builtin.java" language-level="1.3" topmost="false">
-      <conditions />
-      <template name="fakeKey" value="return Result.success($EXPR$);" description="" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="tomap@userDefined" key=".tomap" provider="builtin.java" language-level="8" topmost="false">
-      <conditions />
-      <template name="fakeKey" value="$EXPR$.collect(Collectors.toMap(&#10;                       e -&gt; e$v1$,&#10;               e -&gt; e,&#10;        (existing, duplicate) -&gt; existing  // 保留已有的&#10;                ));" description="" toReformat="true" toShortenFQNames="true" />
-    </template>
     <template id="sfail@userDefined" key=".sfail" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
       <template name="fakeKey" value="return Result.fail($EXPR$);" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="ajtomap@userDefined" key=".ajtomap" provider="builtin.java" language-level="8" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.lang.String" />
+      </conditions>
+      <template name="fakeKey" value="import com.baidu.bailing.lib.ral.json.JsonUtil;&#10;import com.google.gson.reflect.TypeToken;&#10;&#10;Map&lt;String, Object&gt; $END$ = JsonUtil.fromJson2Object($EXPR$,&#10;        new TypeToken&lt;Map&lt;String, Object&gt;&gt;() {&#10;        }.getRawType());&#10;" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="succ@userDefined" key=".succ" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="return Result.success($EXPR$);" description="" toReformat="true" toShortenFQNames="true" />
     </template>
   </component>
 </application>
