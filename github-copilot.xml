@@ -7,6 +7,7 @@
       </map>
     </languageAllowList>
     <option name="showIdeCompletions" value="true" />
+    <option name="chatNaturalLanguage" value="英语" />
     <option name="selectedCompletionModel" value="gpt-41-copilot" />
   </component>
 </application>
