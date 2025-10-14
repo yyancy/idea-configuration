@@ -14,7 +14,7 @@
       <conditions>
         <condition id="fqn" fqn="java.lang.String" />
       </conditions>
-      <template name="fakeKey" value="import com.baidu.bailing.lib.ral.json.JsonUtil;&#10;import com.google.gson.reflect.TypeToken;&#10;&#10;Map&lt;String, Object&gt; $END$ = JsonUtil.fromJson2Object($EXPR$,&#10;        new TypeToken&lt;Map&lt;String, Object&gt;&gt;() {&#10;        }.getRawType());&#10;" toReformat="true" toShortenFQNames="true" />
+      <template name="fakeKey" value="import com.baidu.bailing.lib.ral.json.JsonUtil;&#10;import com.google.gson.reflect.TypeToken;&#10;&#10;Map&lt;String, Object&gt; $END$ = JsonUtil.fromJson2Object($EXPR$,&#10;        new TypeToken&lt;Map&lt;String, Object&gt;&gt;() {&#10;        }.getRawType());&#10;" description="" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="succ@userDefined" key=".succ" provider="builtin.java" language-level="1.3" topmost="false">
       <conditions />
