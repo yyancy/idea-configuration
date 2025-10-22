@@ -1,4 +1,14 @@
 <application>
+  <component name="CodeInsightSettings">
+    <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
+  </component>
+  <component name="DaemonCodeAnalyzerSettings">
+    <option name="AUTOREPARSE_DELAY" value="0" />
+  </component>
+  <component name="EditorSettings">
+    <option name="VERTICAL_SCROLL_OFFSET" value="8" />
+    <option name="HORIZONTAL_SCROLL_OFFSET" value="8" />
+  </component>
   <component name="InlineCompletionOnboarding">
     <option name="onboardingFinished" value="true" />
   </component>
