@@ -97,6 +97,9 @@
       <shortcut-conflict owner="vim">
         <text encoding="base64">c2hpZnQgY3RybCBwcmVzc2VkIEk=</text>
       </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text encoding="base64">c2hpZnQgcHJlc3NlZCBVUA==</text>
+      </shortcut-conflict>
     </shortcut-conflicts>
   </component>
   <component name="VimSettings">
