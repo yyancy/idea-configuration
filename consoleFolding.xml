@@ -2,9 +2,7 @@
   <component name="ConsoleFoldingSettings">
     <option name="addedPositive">
       <list>
-        <option value="[bRoutineStarter] .s.i.MetisAccessMessageSubRoutineStarter : [subRoutineStarter] start to poll ..." />
-        <option value="MetisAccessMessageSubRoutineWorker" />
-        <option value="MetisAccessMessageSubRoutineStarter" />
+        <option value="MetisAccessMessageSubRoutineStarter : [subRoutineStarter] start to poll" />
       </list>
     </option>
   </component>
