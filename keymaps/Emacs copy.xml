@@ -189,6 +189,9 @@
     <keyboard-shortcut first-keystroke="ctrl home" />
     <keyboard-shortcut first-keystroke="shift alt comma" />
   </action>
+  <action id="RecentChangedFiles">
+    <keyboard-shortcut first-keystroke="alt x" second-keystroke="alt r" />
+  </action>
   <action id="RecentFiles">
     <keyboard-shortcut first-keystroke="alt x" second-keystroke="r" />
     <keyboard-shortcut first-keystroke="alt x" second-keystroke="a" />
