@@ -7,18 +7,44 @@
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <colors>
-    <option name="FILESTATUS_ADDED" value="c3e887" />
-    <option name="FILESTATUS_DELETED" value="f77669" />
-    <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
-    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="72a038" />
+    <option name="FILESTATUS_ADDED" value="C3E887" />
+    <option name="FILESTATUS_DELETED" value="F77669" />
+    <option name="FILESTATUS_HIJACKED" value="FFCB6B" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="72A038" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
-    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="c3e887" />
-    <option name="FILESTATUS_MODIFIED" value="80cbc4" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
-    <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
-    <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
-    <option name="FILESTATUS_SWITCHED" value="f77669" />
-    <option name="FILESTATUS_UNKNOWN" value="f77669" />
+    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="C3E887" />
+    <option name="FILESTATUS_MODIFIED" value="80CBC4" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80CBC4" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80CBC4" />
+    <option name="FILESTATUS_OBSOLETE" value="FFCB6B" />
+    <option name="FILESTATUS_SUPPRESSED" value="546E7A" />
+    <option name="FILESTATUS_SWITCHED" value="F77669" />
+    <option name="FILESTATUS_UNKNOWN" value="F77669" />
   </colors>
+  <attributes>
+    <option name="DIFF_CONFLICT">
+      <value>
+        <option name="BACKGROUND" value="9e1c23" />
+        <option name="ERROR_STRIPE_COLOR" value="f97583" />
+      </value>
+    </option>
+    <option name="DIFF_DELETED">
+      <value>
+        <option name="BACKGROUND" value="444d56" />
+        <option name="ERROR_STRIPE_COLOR" value="444d56" />
+      </value>
+    </option>
+    <option name="DIFF_INSERTED">
+      <value>
+        <option name="BACKGROUND" value="165c26" />
+        <option name="ERROR_STRIPE_COLOR" value="165c26" />
+      </value>
+    </option>
+    <option name="DIFF_MODIFIED">
+      <value>
+        <option name="BACKGROUND" value="44289" />
+        <option name="ERROR_STRIPE_COLOR" value="44289" />
+      </value>
+    </option>
+  </attributes>
 </scheme>
