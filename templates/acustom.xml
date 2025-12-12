@@ -91,4 +91,13 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="jp" value="@JsonProperty(&quot;$SNAKE$&quot;)&#10;@SerializedName(&quot;$SNAKE$&quot;)" description="create snake annotations" toReformat="false" toShortenFQNames="true">
+    <variable name="SNAKE" expression="snakeCase()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_IMPLICIT_CLASS_DECLARATION" value="true" />
+      <option name="JAVA_NORMAL_CLASS_DECLARATION_WITHOUT_INSTANCE_MAIN" value="true" />
+      <option name="JAVA_NORMAL_CLASS_DECLARATION_WITH_INSTANCE_MAIN" value="true" />
+    </context>
+  </template>
 </templateSet>
