@@ -5,8 +5,8 @@
         <PlaceSettings>
           <option name="DIFF_TOOLS_ORDER">
             <list>
-              <option value="com.intellij.diff.tools.combined.CombinedSideBySideDiffTool" />
               <option value="com.intellij.diff.tools.combined.CombinedUnifiedDiffTool" />
+              <option value="com.intellij.diff.tools.combined.CombinedSideBySideDiffTool" />
               <option value="com.intellij.jupyter.diff.extensions.JupyterDiffTool" />
               <option value="com.intellij.openapi.vcs.changes.patch.tool.ApplyPatchDiffTool" />
               <option value="com.intellij.openapi.vcs.changes.patch.tool.PatchDiffTool.Unified" />
