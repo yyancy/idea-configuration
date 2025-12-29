@@ -15,6 +15,10 @@
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl v" />
     <keyboard-shortcut first-keystroke="meta v" />
   </action>
+  <action id="$SelectAll">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="h" />
+    <keyboard-shortcut first-keystroke="meta a" />
+  </action>
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
     <keyboard-shortcut first-keystroke="ctrl z" />
@@ -86,6 +90,9 @@
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl v" />
     <keyboard-shortcut first-keystroke="meta v" />
+  </action>
+  <action id="Editor SelectAll">
+    <keyboard-shortcut first-keystroke="meta a" />
   </action>
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
