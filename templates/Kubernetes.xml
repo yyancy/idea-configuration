@@ -2,34 +2,29 @@
   <template name="kresource" value="apiVersion: $APIVERSION$&#10;kind: $KIND$&#10;metadata:&#10;$END$" description="Kubernetes Resource From Scratch" toReformat="true" toShortenFQNames="true">
     <variable name="APIVERSION" expression="complete()" defaultValue="&quot;v1&quot;" alwaysStopAt="true" />
     <variable name="KIND" expression="complete()" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="kconfigmap" value="apiVersion: v1&#10;kind: ConfigMap&#10;metadata:&#10;  name: $NAME$&#10;data:&#10;  $KEY$: &quot;$VALUE$&quot;&#10;$END$" description="Kubernetes ConfigMap" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;title&quot;" alwaysStopAt="true" />
     <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="kdeployment" value="apiVersion: apps/v1&#10;kind: Deployment&#10;metadata:&#10;  name: $NAME$&#10;  labels:&#10;    app: $NAME$&#10;spec:&#10;  replicas: 1&#10;  selector:&#10;    matchLabels:&#10;      app: $NAME$&#10;  template:&#10;    metadata:&#10;      name: $NAME$&#10;      labels:&#10;        app: $NAME$&#10;    spec:&#10;      containers:&#10;        - name: $NAME$&#10;          image: $IMAGE$&#10;          imagePullPolicy: IfNotPresent&#10;          ports:&#10;            - containerPort: $CONTAINERPORT$&#10;              protocol: $PROTOCOL$&#10;      restartPolicy: Always&#10;  $END$" description="Kubernetes Deployment" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;title&quot;" alwaysStopAt="true" />
     <variable name="IMAGE" expression="" defaultValue="&quot;nginx&quot;" alwaysStopAt="true" />
     <variable name="CONTAINERPORT" expression="" defaultValue="&quot;80&quot;" alwaysStopAt="true" />
     <variable name="PROTOCOL" expression="" defaultValue="&quot;TCP&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="kpod" value="apiVersion: v1&#10;kind: Pod&#10;metadata:&#10;  name: $NAME$ &#10;  labels:&#10;    role: $NAME$&#10;spec:&#10;  containers:&#10;  - name: $NAME$&#10;    image: $IMAGE$&#10;    imagePullPolicy: IfNotPresent&#10;    ports:&#10;    - containerPort: $CONTAINERPORT$&#10;      protocol: $PROTOCOL$&#10;  restartPolicy: Always&#10;$END$" description="Kubernetes Pod" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;title&quot;" alwaysStopAt="true" />
     <variable name="IMAGE" expression="" defaultValue="&quot;nginx&quot;" alwaysStopAt="true" />
     <variable name="CONTAINERPORT" expression="" defaultValue="&quot;80&quot;" alwaysStopAt="true" />
     <variable name="PROTOCOL" expression="" defaultValue="&quot;TCP&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="kservice" value="apiVersion: v1&#10;kind: Service&#10;metadata:&#10;  name: $NAME$&#10;spec:&#10;  selector:&#10;    app: $NAME$&#10;  ports:&#10;    - protocol: $PROTOCOL$&#10;      port: $PORT$&#10;      targetPort: $TARGET_PORT$&#10;  type: NodePort&#10;$END$" description="Kubernetes Service" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;title&quot;" alwaysStopAt="true" />
     <variable name="PROTOCOL" expression="" defaultValue="&quot;TCP&quot;" alwaysStopAt="true" />
     <variable name="PORT" expression="" defaultValue="&quot;80&quot;" alwaysStopAt="true" />
     <variable name="TARGET_PORT" expression="" defaultValue="&quot;8080&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="kcronjob" value="apiVersion: batch/v1&#10;kind: CronJob&#10;metadata:&#10;  name: $NAME$&#10;spec:&#10;  schedule: &quot;* * * * *&quot; #&#9;Run every minute&#10;  jobTemplate:&#10;    spec:&#10;      template:&#10;        spec:&#10;          containers:&#10;            - name: $NAME$&#10;              image: $IMAGE$&#10;              imagePullPolicy: IfNotPresent&#10;              command:&#10;                $COMMAND0$&#10;                $COMMAND1$&#10;                $COMMAND2$&#10;          restartPolicy: OnFailure&#10;$END$" description="Kubernetes CronJob" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;title&quot;" alwaysStopAt="true" />
@@ -37,55 +32,45 @@
     <variable name="COMMAND0" expression="" defaultValue="&quot;- /bin/sh&quot;" alwaysStopAt="true" />
     <variable name="COMMAND1" expression="" defaultValue="&quot;- -c&quot;" alwaysStopAt="true" />
     <variable name="COMMAND2" expression="" defaultValue="&quot;- date; echo Hello!&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="kingress" value="apiVersion: networking.k8s.io/v1&#10;kind: Ingress&#10;metadata:&#10;  name: $NAME$&#10;  annotations:&#10;    nginx.ingress.kubernetes.io/rewrite-target: /&#10;spec:&#10;  ingressClassName: nginx&#10;  rules:&#10;    - http:&#10;        paths:&#10;          - path: /api&#10;            pathType: Prefix&#10;            backend:&#10;              service:&#10;                name: $SERVICE_NAME$&#10;                port:&#10;                  number: $PORT$&#10;$END$" description="Kubernetes Ingress" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;title&quot;" alwaysStopAt="true" />
     <variable name="SERVICE_NAME" expression="" defaultValue="&quot;service-title&quot;" alwaysStopAt="true" />
     <variable name="PORT" expression="" defaultValue="&quot;80&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="kcsr" value="apiVersion: certificates.k8s.io/v1&#10;kind: CertificateSigningRequest&#10;metadata:&#10;  name: $MYCSR$&#10;spec:&#10;  request: $YOURCSRINBASE64$&#10;  signerName: kubernetes.io/kube-apiserver-client&#10;  usages:&#10;    - client auth&#10;$END$" description="Kubernetes Certificate Signing Request" toReformat="true" toShortenFQNames="true">
     <variable name="MYCSR" expression="" defaultValue="&quot;my-csr&quot;" alwaysStopAt="true" />
     <variable name="YOURCSRINBASE64" expression="" defaultValue="&quot;your-csr-in-base64-format&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="kclusterrole" value="apiVersion: rbac.authorization.k8s.io/v1&#10;kind: ClusterRole&#10;metadata:&#10;  name: $SECRETREADER$&#10;rules:&#10;  - apiGroups: [&quot;&quot;]&#10;    resources: [&quot;$SECRETS$&quot;]&#10;    verbs: [&quot;get&quot;, &quot;watch&quot;, &quot;list&quot;]&#10;$END$" description="Kubernetes Cluster Role" toReformat="true" toShortenFQNames="true">
     <variable name="SECRETREADER" expression="" defaultValue="&quot;secret-reader&quot;" alwaysStopAt="true" />
     <variable name="SECRETS" expression="" defaultValue="&quot;secrets&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="kclusterrolebinding" value="apiVersion: rbac.authorization.k8s.io/v1&#10;kind: ClusterRoleBinding&#10;metadata:&#10;  name: $READSECRETSGLOBAL$&#10;subjects:&#10;  - kind: $GROUP$&#10;    name: $NAME$&#10;    apiGroup: rbac.authorization.k8s.io&#10;roleRef:&#10;  kind: ClusterRole&#10;  name: $SECRETREADER$&#10;  apiGroup: rbac.authorization.k8s.io&#10;$END$" description="Kubernetes Cluster Role Binding" toReformat="true" toShortenFQNames="true">
     <variable name="READSECRETSGLOBAL" expression="" defaultValue="&quot;read-secrets-global&quot;" alwaysStopAt="true" />
     <variable name="GROUP" expression="" defaultValue="&quot;Group&quot;" alwaysStopAt="true" />
     <variable name="NAME" expression="" defaultValue="&quot;developer&quot;" alwaysStopAt="true" />
     <variable name="SECRETREADER" expression="" defaultValue="&quot;secret-reader&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="kdaemonset" value="apiVersion: apps/v1&#10;kind: DaemonSet&#10;metadata:&#10;  name: $NAME$&#10;spec:&#10;  selector:&#10;    matchLabels:&#10;      app: $NAME$&#10;  template:&#10;    metadata:&#10;      labels:&#10;        app: $NAME$&#10;    spec:&#10;      containers:&#10;        - name: $IMAGE$&#10;          image: $IMAGE$&#10;          args:&#10;            - /bin/sh&#10;            - -c&#10;            - 'while true; do ping -c 4 8.8.8.8; sleep 60; done'&#10;$END$" description="Kubernetes Daemon Set" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;netchecker&quot;" alwaysStopAt="true" />
     <variable name="IMAGE" expression="" defaultValue="&quot;busybox&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="knamespace" value="apiVersion: v1&#10;kind: Namespace&#10;metadata:&#10;  name: $NAME$&#10;$END$" description="Kubernetes Namespace" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="&quot;title&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="krole" value="apiVersion: rbac.authorization.k8s.io/v1&#10;kind: Role&#10;metadata:&#10;  namespace: $NAMESPACE$&#10;  name: $NAME$&#10;rules:&#10;  - apiGroups: [&quot;&quot;]&#10;    resources: [&quot;pods&quot;]&#10;    verbs: [&quot;get&quot;, &quot;watch&quot;, &quot;list&quot;]&#10;$END$" description="Kubernetes Role" toReformat="true" toShortenFQNames="true">
     <variable name="NAMESPACE" expression="" defaultValue="&quot;default&quot;" alwaysStopAt="true" />
     <variable name="NAME" expression="" defaultValue="&quot;pod-reader&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="krolebinding" value="apiVersion: rbac.authorization.k8s.io/v1&#10;kind: RoleBinding&#10;metadata:&#10;  namespace: $NAMESPACE$&#10;  name: $ROLENAME$&#10;subjects:&#10;  - kind: User&#10;    name: $NAME$&#10;    apiGroup: rbac.authorization.k8s.io&#10;roleRef:&#10;  kind: Role&#10;  name: $ROLENAME$&#10;  apiGroup: rbac.authorization.k8s.io&#10;$END$" description="Kubernetes Role Binding" toReformat="true" toShortenFQNames="true">
     <variable name="NAMESPACE" expression="" defaultValue="&quot;default&quot;" alwaysStopAt="true" />
     <variable name="ROLENAME" expression="" defaultValue="&quot;read-pods&quot;" alwaysStopAt="true" />
     <variable name="NAME" expression="" defaultValue="&quot;developer&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="ksecret" value="apiVersion: v1&#10;kind: Secret&#10;metadata:&#10;  name: $NAME$-basic-auth&#10;type: kubernetes.io/basic-auth&#10;stringData:&#10;  username: $USERNAME$&#10;  password: $PASSWORD$&#10;$END$" description="Kubernetes Secret" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="title" alwaysStopAt="true" />
     <variable name="USERNAME" expression="" defaultValue="developer" alwaysStopAt="true" />
     <variable name="PASSWORD" expression="" defaultValue="password" alwaysStopAt="true" />
-    <context />
   </template>
 </templateSet>
