@@ -106,4 +106,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="test" value="// TODO: test usage, remove it later!! $END$" description="test marker" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
