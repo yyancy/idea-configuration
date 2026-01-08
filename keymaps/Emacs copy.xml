@@ -199,6 +199,9 @@
     <keyboard-shortcut first-keystroke="ctrl home" />
     <keyboard-shortcut first-keystroke="shift alt comma" />
   </action>
+  <action id="NextWindow">
+    <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
   <action id="RecentChangedFiles">
     <keyboard-shortcut first-keystroke="alt x" second-keystroke="alt r" />
   </action>
