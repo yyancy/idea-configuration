@@ -6,14 +6,12 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="tobe" value="// TODO: $Date$ to be implemented $END$" description="to be implemented" toReformat="false" toShortenFQNames="true">
-    <variable name="Date" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="false" />
+  <template name="tobe" value="// TODO: to be implemented $END$" description="to be implemented" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="todo" value="// TODO: $YEAR$ $END$" description="to do" toReformat="false" toShortenFQNames="true">
-    <variable name="YEAR" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="false" />
+  <template name="todo" value="// TODO: $END$" description="to do" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
