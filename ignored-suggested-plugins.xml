@@ -4,6 +4,7 @@
       <list>
         <option value="com.haulmont.jpab" />
         <option value="aws.toolkit" />
+        <option value="org.jetbrains.plugins.vue" />
       </list>
     </option>
   </component>
